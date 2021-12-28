@@ -102,6 +102,7 @@ Approaches of this type first find correspondences between the query frame and t
 
 ### Indoor
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
+- [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
 - [2021 CVPR] [NAVERLABS](https://naverlabs.com/datasets) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Large-Scale_Localization_Datasets_in_Crowded_Indoor_Spaces_CVPR_2021_paper.pdf)
 - [2020 ECCV] [RIO10](http://vmnavab26.in.tum.de/RIO10/) [[paper]](https://arxiv.org/pdf/2008.02004.pdf)
 - [2018 CVPR] [InLoc](http://www.ok.sc.e.titech.ac.jp/INLOC/) [[paper]](https://arxiv.org/pdf/1803.10368.pdf)
@@ -111,7 +112,9 @@ Approaches of this type first find correspondences between the query frame and t
 
 ### Outdoor
 - [2021 ICCV] [CrowdDriven](https://www.mapillary.com) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Jafarzadeh_CrowdDriven_A_New_Challenging_Dataset_for_Outdoor_Visual_Localization_ICCV_2021_paper.pdf)
-- [Symphony Seasons](https://dream.georgiatech-metz.fr/datasets/symphony-lake-dataset-visual-benchmark/)
+- [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
+- [2020 ECCV Workshop] [Symphony Seasons](https://dream.georgiatech-metz.fr/datasets/symphony-lake-dataset-visual-benchmark/)
+- [2019 CVPR Workshop] [SILDa](https://sites.google.com/view/ltvl2019/home)
 - [2018 CVPR] [Aachen Day-Night, RobotCar Seasons, CMU Seasons](https://www.visuallocalization.net/datasets/) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sattler_Benchmarking_6DOF_Outdoor_CVPR_2018_paper.pdf)
 - [2015 ICCV] [Cambridge](https://www.repository.cam.ac.uk/handle/1810/251342;jsessionid=723149435103CA63B4C0BF868374A589) [[paper]](https://openaccess.thecvf.com/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf)
 
@@ -119,6 +122,12 @@ Approaches of this type first find correspondences between the query frame and t
 ### Challenges
 - [2021 ICCV] [Long-Term Visual Localization under Changing Conditions](https://sites.google.com/view/ltvl2021/home)
 - [2020 ECCV] [Long-Term Visual Localization under Changing Conditions](https://www.visuallocalization.net/workshop/eccv/2020/)
+- [2019 CVPR] [Long-Term Visual Localization under Changing Conditions](https://sites.google.com/view/ltvl2019/home)
+
+
+### Tools
+- [kapture-localization](https://github.com/naver/kapture-localization)
+- [kapture](https://github.com/naver/kapture)
 
 
 
