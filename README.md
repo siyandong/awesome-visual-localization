@@ -44,6 +44,7 @@ Approaches of this type estimate the camera pose directly from the query frame.
 - [2018 ECCV] RelocNet: Continuous Metric Learning Relocalisation using Neural Nets [[paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf) 
 - [2018 BMVC] Improved Visual Relocalization by Discovering Anchor Points [[paper]](https://arxiv.org/pdf/1811.04370.pdf) [[code]](https://github.com/Soham0/Improved-Visual-Relocalization)
 - [2018 CVPR] Geometry-Aware Learning of Maps for Camera Localization [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Brahmbhatt_Geometry-Aware_Learning_of_CVPR_2018_paper.pdf) [[code]](https://github.com/NVlabs/geomapnet)
+- [2018 RA-L] VLocNet++: Deep Multitask Learning for Semantic Visual Localization and Odometry [[paper]](https://arxiv.org/pdf/1804.08366.pdf)
 - [2017 ICCV Workshop] Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Network [[paper]](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w17/Laskar_Camera_Relocalization_by_ICCV_2017_paper.pdf) [[code]](https://github.com/AaltoVision/camera-relocalisation)
 - [2017 IROS] Deep regression for monocular camera-based 6-dof global localization in outdoor environments [[paper]](https://ieeexplore.ieee.org/iel7/8119304/8202121/08205957.pdf)
 - [2017 CVPR] Geometric loss functions for camera pose regression with deep learning [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Kendall_Geometric_Loss_Functions_CVPR_2017_paper.pdf)
