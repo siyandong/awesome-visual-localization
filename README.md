@@ -22,6 +22,7 @@ Approaches of this type estimate the camera pose directly from the query frame.
 ### Image Retrieval
 - [2018 CVPR] PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Uy_PointNetVLAD_Deep_Point_CVPR_2018_paper.pdf) [[code]](https://openaccess.thecvf.com/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)
 - [2017 CVPR] Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Sattler_Are_Large-Scale_3D_CVPR_2017_paper.pdf)
+- [2017 CVPR] Large-Scale Image Retrieval with Attentive Deep Local Features [[paper]](https://arxiv.org/pdf/1612.06321)
 - [2016 CVPR] NetVLAD: CNN architecture for weakly supervised place recognition [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.pdf) [[code]](https://github.com/Relja/netvlad)
 - [2016 CVPR] Large-Scale Location Recognition and the Geometric Burstiness Problem [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf) [[code]](https://github.com/tsattler/geometric_burstiness)
 - [2015 CVPR] 24/7 place recognition by view synthesis [[paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Torii_247_Place_Recognition_2015_CVPR_paper.pdf) [[code]](http://www.ok.ctrl.titech.ac.jp/~torii/project/247/)
