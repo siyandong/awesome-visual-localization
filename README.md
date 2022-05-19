@@ -58,6 +58,7 @@ Approaches of this type first find correspondences between the query frame and t
 - [2021 CVPR] Back to the Feature: Learning Robust Camera Localization from Pixels to Pose [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Sarlin_Back_to_the_Feature_Learning_Robust_Camera_Localization_From_Pixels_CVPR_2021_paper.pdf) [[code]](https://github.com/cvg/pixloc)
 - [2020 ECCV Workshop] Hierarchical Localization with hloc and SuperGlue [[slides]](https://psarlin.com/assets/talks/hloc+SuperGlue_15min_ltvl_slides.pdf) [[code]](https://github.com/cvg/Hierarchical-Localization)
 - [2020 IROS] KR-Net: A Dependable Visual Kidnap Recovery Network for Indoor Spaces[[paper]](http://ras.papercept.net/images/temp/IROS/files/2098.pdf)
+- [2020 arXiv] Robust Image Retrieval-based Visual Localization using Kapture[[paper]](https://arxiv.org/pdf/2007.13867.pdf) [[code]](https://github.com/naver/kapture-localization)
 - [2019 CVPR] From Coarse to Fine: Robust Hierarchical Localization at Large Scale [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarlin_From_Coarse_to_Fine_Robust_Hierarchical_Localization_at_Large_Scale_CVPR_2019_paper.pdf) [[code]](https://github.com/ethz-asl/hfnet)
 - [2019 CVPR] D2-Net: A Trainable CNN for Joint Description and Detection of Local Features [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Dusmanu_D2-Net_A_Trainable_CNN_for_Joint_Description_and_Detection_of_CVPR_2019_paper.pdf) [[code]](https://github.com/mihaidusmanu/d2-net)
 - [2018 CoRL] Leveraging Deep Visual Descriptors for Hierarchical Efficient Localization [[paper]](https://arxiv.org/pdf/1809.01019.pdf) [[code]](https://github.com/ethz-asl/hierarchical_loc)
@@ -131,7 +132,6 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 ### Tools
-- [kapture-localization](https://github.com/naver/kapture-localization)
 - [kapture](https://github.com/naver/kapture)
 - [TOPO-DataGen](https://github.com/TOPO-EPFL/TOPO-DataGen)
 
