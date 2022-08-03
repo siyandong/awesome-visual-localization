@@ -82,6 +82,7 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 ### Scene Coordinate Regression
+- [2022 ECCV] Towards Accurate Active Camera Localization [[paper]](https://arxiv.org/abs/2012.04263) [[code]](https://github.com/qhFang/AccurateACL)
 - [2022 CVPR] CrossLoc: Scalable Aerial Localization Assisted by Multimodal Synthetic Data [[paper]](https://arxiv.org/abs/2112.09081) [[code]](https://github.com/TOPO-EPFL/CrossLoc)
 - [2021 ICCV] Continual Learning for Image-Based Camera Localization [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Continual_Learning_for_Image-Based_Camera_Localization_ICCV_2021_paper.pdf) [[code]](https://github.com/AaltoVision/CL_HSCNet)
 - [2021 TPAMI] Visual Camera Re-Localization from RGB and RGB-D Images Using DSAC [[paper]](https://arxiv.org/pdf/2002.12324.pdf) [[code]](https://github.com/vislearn/dsacstar)
@@ -111,6 +112,7 @@ Approaches of this type first find correspondences between the query frame and t
 ## Datasets and Benchmarks
 
 ### Indoor
+- [2022 ECCV] [ACL](https://github.com/qhFang/AccurateACL) [[paper]](https://arxiv.org/abs/2012.04263)
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
 - [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
 - [2021 CVPR] [NAVERLABS](https://naverlabs.com/datasets) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Large-Scale_Localization_Datasets_in_Crowded_Indoor_Spaces_CVPR_2021_paper.pdf)
