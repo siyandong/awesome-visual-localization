@@ -34,8 +34,12 @@ Approaches of this type estimate the camera pose directly from the query frame.
 
 
 
-
 ### Pose Regression
+
+- [2022 ECCV] Camera Pose Auto-Encoders for Improving Pose Regression [[paper]](https://arxiv.org/abs/2207.05530) [[code]](https://github.com/yolish/camera-pose-auto-encoders)
+- [2021 ICCV] Learning Multi-Scene Absolute Pose Regression with Transformers [[paper]](https://arxiv.org/pdf/2103.11468.pdf) [[code]](https://github.com/yolish/multi-scene-pose-transformer)
+
+- [2021 CoRL] LENS: Localization enhanced by NeRF synthesis [[paper]](https://arxiv.org/abs/2110.06558) 
 - [2020 ECCV] 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference [[paper]](https://arxiv.org/pdf/2004.04807.pdf) [[code]](https://multimodal3dvision.github.io/)
 - [2020 AAAI] AtLoc: Attention Guided Camera Localization [[paper]](https://arxiv.org/pdf/1909.03557.pdf) [[code]](https://github.com/BingCS/AtLoc)
 - [2020 ICRA] To Learn or Not to Learn: Visual Localization from Essential Matrices [[paper]](https://arxiv.org/pdf/1908.01293.pdf)
@@ -80,8 +84,10 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 
-
 ### Scene Coordinate Regression
+
+- [2022 3DV] Visual Localization via Few-Shot Scene Region Classification [[paper]](https://arxiv.org/pdf/2208.06933.pdf) [[code]](https://github.com/siyandong/SRC)
+
 - [2022 ECCV] Towards Accurate Active Camera Localization [[paper]](https://arxiv.org/abs/2012.04263) [[code]](https://github.com/qhFang/AccurateACL)
 - [2022 CVPR] CrossLoc: Scalable Aerial Localization Assisted by Multimodal Synthetic Data [[paper]](https://arxiv.org/abs/2112.09081) [[code]](https://github.com/TOPO-EPFL/CrossLoc)
 - [2021 ICCV] Continual Learning for Image-Based Camera Localization [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Continual_Learning_for_Image-Based_Camera_Localization_ICCV_2021_paper.pdf) [[code]](https://github.com/AaltoVision/CL_HSCNet)
@@ -105,6 +111,10 @@ Approaches of this type first find correspondences between the query frame and t
 - [2015 CVPR] Exploiting Uncertainty in Regression Forests for Accurate Camera Relocalization [[paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Valentin_Exploiting_Uncertainty_in_2015_CVPR_paper.pdf)
 - [2014 CVPR] Multi-Output Learning for Camera Relocalization [[paper]](https://openaccess.thecvf.com/content_cvpr_2014/papers/Guzman-Rivera_Multi-Output_Learning_for_2014_CVPR_paper.pdf)
 - [2013 CVPR] Scene Coordinate Regression Forests for Camera Relocalization in RGB-D Images [[paper]](https://openaccess.thecvf.com/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)
+
+### Others
+
+- [2022 ECCV] MeshLoc: Mesh-Based Visual Localization [[paper]](https://arxiv.org/abs/2207.10762) [[code]](https://github.com/tsattler/meshloc_release)
 
 
 
