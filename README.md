@@ -64,7 +64,7 @@ Approaches of this type first find correspondences between the query frame and t
 
 ### Feature Matching Based
 
-- [2022 CVPR] SceneSqueezer: Learning to Compress Scene for Camera Relocalization [[paper]]()
+- [2022 CVPR] SceneSqueezer: Learning to Compress Scene for Camera Relocalization [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.html) 
 
 - [2021 ICCV Workshop] MegLoc: A Robust and Accurate Visual Localization Pipeline [[paper]](https://arxiv.org/pdf/2111.13063v1.pdf)
 - [2021 ICCV Workshop] Pose Refinement with Joint Optimization of Visual Points and Lines [[paper]](https://arxiv.org/pdf/2110.03940.pdf)
