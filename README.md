@@ -63,6 +63,9 @@ Approaches of this type estimate the camera pose directly from the query frame.
 Approaches of this type first find correspondences between the query frame and the scene, then estimate the camera pose through optimization with RANSAC. 
 
 ### Feature Matching Based
+
+- [2022 CVPR] SceneSqueezer: Learning to Compress Scene for Camera Relocalization [[paper]]()
+
 - [2021 ICCV Workshop] MegLoc: A Robust and Accurate Visual Localization Pipeline [[paper]](https://arxiv.org/pdf/2111.13063v1.pdf)
 - [2021 ICCV Workshop] Pose Refinement with Joint Optimization of Visual Points and Lines [[paper]](https://arxiv.org/pdf/2110.03940.pdf)
 - [2021 ICRA & ICCV Workshop] Retrieval and Localization with Observation Constraints [[paper]](https://arxiv.org/pdf/2108.08516.pdf)
