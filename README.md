@@ -1,6 +1,6 @@
 # Awesome Visual Localization
 
-A curated list of visual (re)localization resources, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision). The list focuses on the research of visual localization, i.e. estimates 6 DoF camera pose of a query RGB/RGB-D frame in known scenes. 
+A curated list of visual (re)localization resources, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision). The list focuses on the research of visual localization, i.e. estimates 6 DoF camera poses of query RGB/RGB-D frames in known scenes (with databases). 
 
 This document is a work in progress. Please suggest papers/resources through pull requests. If you believe this list is missing something or has factually inaccurate info, you can also new an issue. All contributions are appreciated.
 
@@ -20,6 +20,7 @@ This document is a work in progress. Please suggest papers/resources through pul
 Approaches of this type estimate the camera pose directly from the query frame.
 
 ### Image Retrieval
+
 - [2018 CVPR] PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Uy_PointNetVLAD_Deep_Point_CVPR_2018_paper.pdf) [[code]](https://openaccess.thecvf.com/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)
 - [2017 CVPR] Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Sattler_Are_Large-Scale_3D_CVPR_2017_paper.pdf)
 - [2017 CVPR] Large-Scale Image Retrieval with Attentive Deep Local Features [[paper]](https://arxiv.org/pdf/1612.06321)
@@ -37,8 +38,8 @@ Approaches of this type estimate the camera pose directly from the query frame.
 ### Pose Regression
 
 - [2022 ECCV] Camera Pose Auto-Encoders for Improving Pose Regression [[paper]](https://arxiv.org/abs/2207.05530) [[code]](https://github.com/yolish/camera-pose-auto-encoders)
+- [2021 3DV] Visual Camera Re-Localization Using Graph Neural Networks and Relative Pose Supervision [[paper]](https://arxiv.org/pdf/2104.02538.pdf) [[code]](https://github.com/nianticlabs/relpose-gnn)
 - [2021 ICCV] Learning Multi-Scene Absolute Pose Regression with Transformers [[paper]](https://arxiv.org/pdf/2103.11468.pdf) [[code]](https://github.com/yolish/multi-scene-pose-transformer)
-
 - [2021 CoRL] LENS: Localization enhanced by NeRF synthesis [[paper]](https://arxiv.org/abs/2110.06558) 
 - [2020 ECCV] 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference [[paper]](https://arxiv.org/pdf/2004.04807.pdf) [[code]](https://multimodal3dvision.github.io/)
 - [2020 AAAI] AtLoc: Attention Guided Camera Localization [[paper]](https://arxiv.org/pdf/1909.03557.pdf) [[code]](https://github.com/BingCS/AtLoc)
@@ -65,11 +66,11 @@ Approaches of this type first find correspondences between the query frame and t
 ### Feature Matching Based
 
 - [2022 CVPR] SceneSqueezer: Learning to Compress Scene for Camera Relocalization [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.html) 
-
 - [2021 ICCV Workshop] MegLoc: A Robust and Accurate Visual Localization Pipeline [[paper]](https://arxiv.org/pdf/2111.13063v1.pdf)
 - [2021 ICCV Workshop] Pose Refinement with Joint Optimization of Visual Points and Lines [[paper]](https://arxiv.org/pdf/2110.03940.pdf)
 - [2021 ICRA & ICCV Workshop] Retrieval and Localization with Observation Constraints [[paper]](https://arxiv.org/pdf/2108.08516.pdf)
 - [2021 CVPR] Back to the Feature: Learning Robust Camera Localization from Pixels to Pose [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Sarlin_Back_to_the_Feature_Learning_Robust_Camera_Localization_From_Pixels_CVPR_2021_paper.pdf) [[code]](https://github.com/cvg/pixloc)
+- [2020 3DV] Using Image Sequences for Long-Term Visual Localization [[paper]](https://ieeexplore.ieee.org/abstract/document/9320360)
 - [2020 ECCV Workshop] Hierarchical Localization with hloc and SuperGlue [[slides]](https://psarlin.com/assets/talks/hloc+SuperGlue_15min_ltvl_slides.pdf) [[code]](https://github.com/cvg/Hierarchical-Localization)
 - [2020 IROS] KR-Net: A Dependable Visual Kidnap Recovery Network for Indoor Spaces [[paper]](http://ras.papercept.net/images/temp/IROS/files/2098.pdf)
 - [2020 arXiv] Robust Image Retrieval-based Visual Localization using Kapture [[paper]](https://arxiv.org/pdf/2007.13867.pdf) [[code]](https://github.com/naver/kapture-localization)
@@ -90,7 +91,6 @@ Approaches of this type first find correspondences between the query frame and t
 ### Scene Coordinate Regression
 
 - [2022 3DV] Visual Localization via Few-Shot Scene Region Classification [[paper]](https://arxiv.org/pdf/2208.06933.pdf) [[code]](https://github.com/siyandong/SRC)
-
 - [2022 ECCV] Towards Accurate Active Camera Localization [[paper]](https://arxiv.org/abs/2012.04263) [[code]](https://github.com/qhFang/AccurateACL)
 - [2022 CVPR] CrossLoc: Scalable Aerial Localization Assisted by Multimodal Synthetic Data [[paper]](https://arxiv.org/abs/2112.09081) [[code]](https://github.com/TOPO-EPFL/CrossLoc)
 - [2021 ICCV] Continual Learning for Image-Based Camera Localization [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Continual_Learning_for_Image-Based_Camera_Localization_ICCV_2021_paper.pdf) [[code]](https://github.com/AaltoVision/CL_HSCNet)
@@ -100,6 +100,7 @@ Approaches of this type first find correspondences between the query frame and t
 - [2021 CVPR] VS-Net: Voting with Segmentation for Visual Localization [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_VS-Net_Voting_With_Segmentation_for_Visual_Localization_CVPR_2021_paper.pdf) [[code]](https://github.com/zju3dv/VS-Net)
 - [2020 CVPR] KFNet: Learning Temporal Camera Relocalization using Kalman Filtering [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_KFNet_Learning_Temporal_Camera_Relocalization_Using_Kalman_Filtering_CVPR_2020_paper.pdf) [[code]](https://github.com/zlthinker/KFNet)
 - [2020 CVPR] Hierarchical Scene Coordinate Classification and Regression for Visual Localization [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Hierarchical_Scene_Coordinate_Classification_and_Regression_for_Visual_Localization_CVPR_2020_paper.pdf) [[code]](https://github.com/AaltoVision/hscnet)
+- [2019 3DV] Let’s Take This Online: Adapting Scene Coordinate Regression Network Predictions for Online RGB-D Camera Relocalisation [[paper]](https://arxiv.org/pdf/1906.08744.pdf)
 - [2019 TPAMI] Real-Time RGB-D Camera Pose Estimation in Novel Scenes using a Relocalisation Cascade [[paper]](https://arxiv.org/pdf/1810.12163.pdf) [[code]](https://github.com/torrvision/spaint)
 - [2019 ICCV] SANet: Scene Agnostic Network for Camera Localization [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_SANet_Scene_Agnostic_Network_for_Camera_Localization_ICCV_2019_paper.pdf) [[code]](https://github.com/sfu-gruvi-3dv/sanet_relocal_demo)
 - [2019 ICCV] Expert Sample Consensus Applied to Camera Re-Localization [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Brachmann_Expert_Sample_Consensus_Applied_to_Camera_Re-Localization_ICCV_2019_paper.pdf) [[code]](https://github.com/vislearn/esac)
@@ -114,6 +115,8 @@ Approaches of this type first find correspondences between the query frame and t
 - [2015 CVPR] Exploiting Uncertainty in Regression Forests for Accurate Camera Relocalization [[paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Valentin_Exploiting_Uncertainty_in_2015_CVPR_paper.pdf)
 - [2014 CVPR] Multi-Output Learning for Camera Relocalization [[paper]](https://openaccess.thecvf.com/content_cvpr_2014/papers/Guzman-Rivera_Multi-Output_Learning_for_2014_CVPR_paper.pdf)
 - [2013 CVPR] Scene Coordinate Regression Forests for Camera Relocalization in RGB-D Images [[paper]](https://openaccess.thecvf.com/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)
+
+
 
 ### Others
 
