@@ -127,6 +127,13 @@ Approaches of this type first find correspondences between the query frame and t
 
 ## Datasets and Benchmarks
 
+
+
+### In/Outdoor
+- [2022 ECCV] [LaMAR](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670677.pdf) [[page]](https://lamar.ethz.ch/)
+
+
+
 ### Indoor
 - [2022 ECCV] [ACL](https://github.com/qhFang/AccurateACL) [[paper]](https://arxiv.org/abs/2012.04263)
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
@@ -139,6 +146,7 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 ### Outdoor
+- [2022 ECCV] [Map-free Visual Relocalization](https://arxiv.org/pdf/2210.05494.pdf). [[page]](https://research.nianticlabs.com/mapfree-reloc-benchmark)
 - [2022 CVPR] [CrossLoc](https://github.com/TOPO-EPFL/CrossLoc-Benchmark-Datasets) [[paper]](https://arxiv.org/abs/2112.09081)
 - [2021 ICCV] [CrowdDriven](https://www.mapillary.com) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Jafarzadeh_CrowdDriven_A_New_Challenging_Dataset_for_Outdoor_Visual_Localization_ICCV_2021_paper.pdf)
 - [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
