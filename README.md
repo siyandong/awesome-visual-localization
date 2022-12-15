@@ -11,7 +11,7 @@ This document is a work in progress. Please suggest papers/resources through pul
     - [Image Retrieval](#image-retrieval)
     - [Pose Regression](#pose-regression)
 - [Two-Step Approaches](#two-step-approaches)
-    - [Feature Matching Based (Structure-from-Motion)](#feature-matching-based)
+    - [Feature Matching Based](#feature-matching-based)
     - [Scene Coordinate Regression](#scene-coordinate-regression)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 
@@ -22,7 +22,6 @@ Approaches of this type estimate the camera pose directly from the query frame.
 ### Image Retrieval
 
 - [2018 CVPR] PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Uy_PointNetVLAD_Deep_Point_CVPR_2018_paper.pdf) [[code]](https://openaccess.thecvf.com/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)
-- [2017 CVPR] Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Sattler_Are_Large-Scale_3D_CVPR_2017_paper.pdf)
 - [2017 CVPR] Large-Scale Image Retrieval with Attentive Deep Local Features [[paper]](https://arxiv.org/pdf/1612.06321)
 - [2016 CVPR] NetVLAD: CNN architecture for weakly supervised place recognition [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Arandjelovic_NetVLAD_CNN_Architecture_CVPR_2016_paper.pdf) [[code]](https://github.com/Relja/netvlad)
 - [2016 CVPR] Large-Scale Location Recognition and the Geometric Burstiness Problem [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf) [[code]](https://github.com/tsattler/geometric_burstiness)
@@ -43,7 +42,6 @@ Approaches of this type estimate the camera pose directly from the query frame.
 - [2021 CoRL] LENS: Localization enhanced by NeRF synthesis [[paper]](https://arxiv.org/abs/2110.06558) 
 - [2020 ECCV] 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference [[paper]](https://arxiv.org/pdf/2004.04807.pdf) [[code]](https://multimodal3dvision.github.io/)
 - [2020 AAAI] AtLoc: Attention Guided Camera Localization [[paper]](https://arxiv.org/pdf/1909.03557.pdf) [[code]](https://github.com/BingCS/AtLoc)
-- [2020 ICRA] To Learn or Not to Learn: Visual Localization from Essential Matrices [[paper]](https://arxiv.org/pdf/1908.01293.pdf)
 - [2019 ECCV] CamNet: Coarse-to-Fine Retrieval for Camera Re-Localization [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_CamNet_Coarse-to-Fine_Retrieval_for_Camera_Re-Localization_ICCV_2019_paper.pdf)
 - [2019 CVPR] Understanding the Limitations of CNN-based Absolute Camera Pose Regression [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sattler_Understanding_the_Limitations_of_CNN-Based_Absolute_Camera_Pose_Regression_CVPR_2019_paper.pdf)
 - [2018 ECCV] RelocNet: Continuous Metric Learning Relocalisation using Neural Nets [[paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf) 
@@ -61,10 +59,10 @@ Approaches of this type estimate the camera pose directly from the query frame.
 
 
 ## Two-Step Approaches 
-Approaches of this type first find correspondences between the query frame and the scene, then estimate the camera pose through optimization with RANSAC. 
+Approaches of this type first find correspondences between the query frame and the scene (database), then estimate the camera pose through optimization with RANSAC. 
 
 ### Feature Matching Based
-
+- [2022 ECCV] MeshLoc: Mesh-Based Visual Localization [[paper]](https://arxiv.org/abs/2207.10762) [[code]](https://github.com/tsattler/meshloc_release)
 - [2022 CVPR] SceneSqueezer: Learning to Compress Scene for Camera Relocalization [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.html) 
 - [2021 ICCV Workshop] MegLoc: A Robust and Accurate Visual Localization Pipeline [[paper]](https://arxiv.org/pdf/2111.13063v1.pdf)
 - [2021 ICCV Workshop] Pose Refinement with Joint Optimization of Visual Points and Lines [[paper]](https://arxiv.org/pdf/2110.03940.pdf)
@@ -73,12 +71,14 @@ Approaches of this type first find correspondences between the query frame and t
 - [2020 3DV] Using Image Sequences for Long-Term Visual Localization [[paper]](https://ieeexplore.ieee.org/abstract/document/9320360)
 - [2020 ECCV Workshop] Hierarchical Localization with hloc and SuperGlue [[slides]](https://psarlin.com/assets/talks/hloc+SuperGlue_15min_ltvl_slides.pdf) [[code]](https://github.com/cvg/Hierarchical-Localization)
 - [2020 IROS] KR-Net: A Dependable Visual Kidnap Recovery Network for Indoor Spaces [[paper]](http://ras.papercept.net/images/temp/IROS/files/2098.pdf)
+- [2020 ICRA] To Learn or Not to Learn: Visual Localization from Essential Matrices [[paper]](https://arxiv.org/pdf/1908.01293.pdf)
 - [2020 arXiv] Robust Image Retrieval-based Visual Localization using Kapture [[paper]](https://arxiv.org/pdf/2007.13867.pdf) [[code]](https://github.com/naver/kapture-localization)
 - [2019 CVPR] From Coarse to Fine: Robust Hierarchical Localization at Large Scale [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarlin_From_Coarse_to_Fine_Robust_Hierarchical_Localization_at_Large_Scale_CVPR_2019_paper.pdf) [[code]](https://github.com/ethz-asl/hfnet)
 - [2019 CVPR] D2-Net: A Trainable CNN for Joint Description and Detection of Local Features [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Dusmanu_D2-Net_A_Trainable_CNN_for_Joint_Description_and_Detection_of_CVPR_2019_paper.pdf) [[code]](https://github.com/mihaidusmanu/d2-net)
 - [2018 CoRL] Leveraging Deep Visual Descriptors for Hierarchical Efficient Localization [[paper]](https://arxiv.org/pdf/1809.01019.pdf) [[code]](https://github.com/ethz-asl/hierarchical_loc)
 - [2018 CVPR] InLoc: Indoor Visual Localization with Dense Matching and View Synthesis [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Taira_InLoc_Indoor_Visual_CVPR_2018_paper.pdf) [[code]](https://github.com/HajimeTaira/InLoc_demo)
 - [2017 ICCV] Efficient Global 2D-3D Matching for Camera Localization in a Large-Scale 3D Map [[paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Efficient_Global_2D-3D_ICCV_2017_paper.pdf)
+- [2017 CVPR] Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Sattler_Are_Large-Scale_3D_CVPR_2017_paper.pdf)
 - [2017 ICRA] [RA-L] Self-supervised Visual Descriptor Learning for Dense Correspondence [[paper]](https://homes.cs.washington.edu/~tws10/3163.pdf)
 - [2016 TPAMI] Efficient & Effective Prioritized Matching for Large-Scale Image-Based Localization [[paper]](http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Sattler2016PAMI.pdf)
 - [2015 ICCV] Camera Pose Voting for Large-Scale Image-Based Localization [[paper]](https://openaccess.thecvf.com/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)
@@ -118,12 +118,6 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 
-### Others
-
-- [2022 ECCV] MeshLoc: Mesh-Based Visual Localization [[paper]](https://arxiv.org/abs/2207.10762) [[code]](https://github.com/tsattler/meshloc_release)
-
-
-
 
 ## Datasets and Benchmarks
 
@@ -131,13 +125,12 @@ Approaches of this type first find correspondences between the query frame and t
 
 ### In/Outdoor
 - [2022 ECCV] [LaMAR](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670677.pdf) [[page]](https://lamar.ethz.ch/)
-
+- [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
 
 
 ### Indoor
 - [2022 ECCV] [ACL](https://github.com/qhFang/AccurateACL) [[paper]](https://arxiv.org/abs/2012.04263)
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
-- [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
 - [2021 CVPR] [NAVERLABS](https://naverlabs.com/datasets) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Large-Scale_Localization_Datasets_in_Crowded_Indoor_Spaces_CVPR_2021_paper.pdf)
 - [2020 ECCV] [RIO10](http://vmnavab26.in.tum.de/RIO10/) [[paper]](https://arxiv.org/pdf/2008.02004.pdf)
 - [2018 CVPR] [InLoc](http://www.ok.sc.e.titech.ac.jp/INLOC/) [[paper]](https://arxiv.org/pdf/1803.10368.pdf)
@@ -149,7 +142,6 @@ Approaches of this type first find correspondences between the query frame and t
 - [2022 ECCV] [Map-free Visual Relocalization](https://arxiv.org/pdf/2210.05494.pdf). [[page]](https://research.nianticlabs.com/mapfree-reloc-benchmark)
 - [2022 CVPR] [CrossLoc](https://github.com/TOPO-EPFL/CrossLoc-Benchmark-Datasets) [[paper]](https://arxiv.org/abs/2112.09081)
 - [2021 ICCV] [CrowdDriven](https://www.mapillary.com) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Jafarzadeh_CrowdDriven_A_New_Challenging_Dataset_for_Outdoor_Visual_Localization_ICCV_2021_paper.pdf)
-- [2021 ICCV Workshop] [ETH-Microsoft](https://github.com/cvg/visloc-iccv2021)
 - [2020 ECCV Workshop] [Symphony Seasons](https://dream.georgiatech-metz.fr/datasets/symphony-lake-dataset-visual-benchmark/)
 - [2019 CVPR Workshop] [SILDa](https://sites.google.com/view/ltvl2019/home)
 - [2018 CVPR] [Aachen Day-Night, RobotCar Seasons, CMU Seasons](https://www.visuallocalization.net/datasets/) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sattler_Benchmarking_6DOF_Outdoor_CVPR_2018_paper.pdf)
