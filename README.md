@@ -132,6 +132,7 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 ### Indoor
+- [2022 CVPR] [Indoor-6](https://github.com/microsoft/SceneLandmarkLocalization) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Do_Learning_To_Detect_Scene_Landmarks_for_Camera_Localization_CVPR_2022_paper.pdf)
 - [2022 ECCV] [ACL](https://github.com/qhFang/AccurateACL) [[paper]](https://arxiv.org/abs/2012.04263)
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
 - [2021 CVPR] [NAVERLABS](https://naverlabs.com/datasets) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Large-Scale_Localization_Datasets_in_Crowded_Indoor_Spaces_CVPR_2021_paper.pdf)
