@@ -38,6 +38,7 @@ Approaches of this type estimate the camera pose directly from the query frame.
 ### Pose Regression
 - [2022 ECCV] DFNet: Enhance Absolute Pose Regression with Direct Feature Matching [[paper]](https://arxiv.org/pdf/2204.00559.pdf) [[code]](https://github.com/ActiveVisionLab/DFNet)
 - [2022 ECCV] Camera Pose Auto-Encoders for Improving Pose Regression [[paper]](https://arxiv.org/abs/2207.05530) [[code]](https://github.com/yolish/camera-pose-auto-encoders)
+- [2022 WACV] CoordiNet: uncertainty-aware pose regressor for reliable vehicle localization [[paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Moreau_CoordiNet_Uncertainty-Aware_Pose_Regressor_for_Reliable_Vehicle_Localization_WACV_2022_paper.pdf)
 - [2021 3DV] Direct-PoseNet: Absolute Pose Regression with Photometric Consistency [[paper]](https://arxiv.org/pdf/2104.04073.pdf) [[code]](https://github.com/ActiveVisionLab/direct-posenet)
 - [2021 3DV] Visual Camera Re-Localization Using Graph Neural Networks and Relative Pose Supervision [[paper]](https://arxiv.org/pdf/2104.02538.pdf) [[code]](https://github.com/nianticlabs/relpose-gnn)
 - [2021 ICCV] Learning Multi-Scene Absolute Pose Regression with Transformers [[paper]](https://arxiv.org/pdf/2103.11468.pdf) [[code]](https://github.com/yolish/multi-scene-pose-transformer)
