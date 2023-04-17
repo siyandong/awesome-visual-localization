@@ -38,11 +38,13 @@ Approaches of this type estimate the camera pose directly from the query frame.
 ### Pose Regression
 - [2022 ECCV] DFNet: Enhance Absolute Pose Regression with Direct Feature Matching [[paper]](https://arxiv.org/pdf/2204.00559.pdf) [[code]](https://github.com/ActiveVisionLab/DFNet)
 - [2022 ECCV] Camera Pose Auto-Encoders for Improving Pose Regression [[paper]](https://arxiv.org/abs/2207.05530) [[code]](https://github.com/yolish/camera-pose-auto-encoders)
+- [2022 WACV] CoordiNet: uncertainty-aware pose regressor for reliable vehicle localization [[paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Moreau_CoordiNet_Uncertainty-Aware_Pose_Regressor_for_Reliable_Vehicle_Localization_WACV_2022_paper.pdf)
 - [2021 3DV] Direct-PoseNet: Absolute Pose Regression with Photometric Consistency [[paper]](https://arxiv.org/pdf/2104.04073.pdf) [[code]](https://github.com/ActiveVisionLab/direct-posenet)
 - [2021 3DV] Visual Camera Re-Localization Using Graph Neural Networks and Relative Pose Supervision [[paper]](https://arxiv.org/pdf/2104.02538.pdf) [[code]](https://github.com/nianticlabs/relpose-gnn)
 - [2021 ICCV] Learning Multi-Scene Absolute Pose Regression with Transformers [[paper]](https://arxiv.org/pdf/2103.11468.pdf) [[code]](https://github.com/yolish/multi-scene-pose-transformer)
 - [2021 CoRL] LENS: Localization enhanced by NeRF synthesis [[paper]](https://arxiv.org/abs/2110.06558) 
 - [2020 ECCV] 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference [[paper]](https://arxiv.org/pdf/2004.04807.pdf) [[code]](https://multimodal3dvision.github.io/)
+- [2020 CVPR] Learning Multi-view Camera Relocalization with Graph Neural Networks [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xue_Learning_Multi-View_Camera_Relocalization_With_Graph_Neural_Networks_CVPR_2020_paper.pdf)
 - [2020 AAAI] AtLoc: Attention Guided Camera Localization [[paper]](https://arxiv.org/pdf/1909.03557.pdf) [[code]](https://github.com/BingCS/AtLoc)
 - [2019 ECCV] CamNet: Coarse-to-Fine Retrieval for Camera Re-Localization [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ding_CamNet_Coarse-to-Fine_Retrieval_for_Camera_Re-Localization_ICCV_2019_paper.pdf)
 - [2019 CVPR] Understanding the Limitations of CNN-based Absolute Camera Pose Regression [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sattler_Understanding_the_Limitations_of_CNN-Based_Absolute_Camera_Pose_Regression_CVPR_2019_paper.pdf)
@@ -132,6 +134,7 @@ Approaches of this type first find correspondences between the query frame and t
 
 
 ### Indoor
+- [2022 CVPR] [Indoor-6](https://github.com/microsoft/SceneLandmarkLocalization) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Do_Learning_To_Detect_Scene_Landmarks_for_Camera_Localization_CVPR_2022_paper.pdf)
 - [2022 ECCV] [ACL](https://github.com/qhFang/AccurateACL) [[paper]](https://arxiv.org/abs/2012.04263)
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
 - [2021 CVPR] [NAVERLABS](https://naverlabs.com/datasets) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Large-Scale_Localization_Datasets_in_Crowded_Indoor_Spaces_CVPR_2021_paper.pdf)
