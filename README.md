@@ -142,7 +142,7 @@ Approaches of this type first find correspondences between the query frame and t
 - [2018 CVPR] [InLoc](http://www.ok.sc.e.titech.ac.jp/INLOC/) [[paper]](https://arxiv.org/pdf/1803.10368.pdf)
 - [2016 3DV] [4-Scenes(12-Scenes)](https://graphics.stanford.edu/projects/reloc/) [[paper]](https://arxiv.org/pdf/1603.05772v1.pdf)
 - [2013 CVPR] [7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) [[paper]](https://openaccess.thecvf.com/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)
-
+- [2023 JSEN] [CLoc](https://github.com/kimjh069/CLoc)[[paper]](https://ieeexplore.ieee.org/abstract/document/10068431)
 
 ### Outdoor
 - [2022 ECCV] [Map-free Visual Relocalization](https://arxiv.org/pdf/2210.05494.pdf). [[page]](https://research.nianticlabs.com/mapfree-reloc-benchmark)
