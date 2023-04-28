@@ -41,7 +41,6 @@ Approaches of this type estimate the camera pose directly from the query frame.
 - [2022 WACV] CoordiNet: uncertainty-aware pose regressor for reliable vehicle localization [[paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Moreau_CoordiNet_Uncertainty-Aware_Pose_Regressor_for_Reliable_Vehicle_Localization_WACV_2022_paper.pdf)
 - [2021 3DV] Direct-PoseNet: Absolute Pose Regression with Photometric Consistency [[paper]](https://arxiv.org/pdf/2104.04073.pdf) [[code]](https://github.com/ActiveVisionLab/direct-posenet)
 - [2021 3DV] Visual Camera Re-Localization Using Graph Neural Networks and Relative Pose Supervision [[paper]](https://arxiv.org/pdf/2104.02538.pdf) [[code]](https://github.com/nianticlabs/relpose-gnn)
-- [2021 ICCV] Continual Learning for Image-Based Camera Localization [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Continual_Learning_for_Image-Based_Camera_Localization_ICCV_2021_paper.pdf)[[code]](https://github.com/AaltoVision/CL_HSCNet)
 - [2021 ICCV] Learning Multi-Scene Absolute Pose Regression with Transformers [[paper]](https://arxiv.org/pdf/2103.11468.pdf) [[code]](https://github.com/yolish/multi-scene-pose-transformer)
 - [2021 CoRL] LENS: Localization enhanced by NeRF synthesis [[paper]](https://arxiv.org/abs/2110.06558) 
 - [2020 ECCV] 6D Camera Relocalization in Ambiguous Scenes via Continuous Multimodal Inference [[paper]](https://arxiv.org/pdf/2004.04807.pdf) [[code]](https://multimodal3dvision.github.io/)
