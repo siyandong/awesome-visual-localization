@@ -36,6 +36,7 @@ Approaches of this type estimate the camera pose directly from the query frame.
 
 
 ### Pose Regression
+- [2023 AAAI] RobustLoc: Robust Camera Pose Regression in Challenging Driving Environments [[paper]](https://arxiv.org/pdf/2211.11238.pdf) [[code]](https://github.com/sijieaaa/RobustLoc)
 - [2022 ECCV] DFNet: Enhance Absolute Pose Regression with Direct Feature Matching [[paper]](https://arxiv.org/pdf/2204.00559.pdf) [[code]](https://github.com/ActiveVisionLab/DFNet)
 - [2022 ECCV] Camera Pose Auto-Encoders for Improving Pose Regression [[paper]](https://arxiv.org/abs/2207.05530) [[code]](https://github.com/yolish/camera-pose-auto-encoders)
 - [2022 WACV] CoordiNet: uncertainty-aware pose regressor for reliable vehicle localization [[paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Moreau_CoordiNet_Uncertainty-Aware_Pose_Regressor_for_Reliable_Vehicle_Localization_WACV_2022_paper.pdf)
