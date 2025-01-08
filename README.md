@@ -117,8 +117,10 @@ If you believe this list is missing something or has factually inaccurate info, 
 
 ## Scene Coordinate Regression
 
+- [2025 arXiv] R-SCoRe: Revisiting Scene Coordinate Regression for Robust Large-Scale Visual Localization [[paper]](https://arxiv.org/pdf/2501.01421) [[code]](https://github.com/cvg/scrstudio) 
 - [2024 ECCV] Scene Coordinate Reconstruction: Posing of Image Collections via Incremental Learning of a Relocalizer [[paper]](https://arxiv.org/pdf/2404.14351) [[code]](https://github.com/nianticlabs/acezero)
 - [2024 CVPR] DUSt3R: Geometric 3D Vision Made Easy [[paper]](https://arxiv.org/pdf/2312.14132v1) [[code]](https://github.com/naver/dust3r)
+- [2024 CVPR] GLACE: Global Local Accelerated Coordinate Encoding [[paper]](https://arxiv.org/pdf/2406.04340) [[code]](https://github.com/cvg/glace)
 - [2024 CVPR Workshop] SACReg: Scene-Agnostic Coordinate Regression for Visual Localization [[paper]](https://arxiv.org/pdf/2307.11702)
 - [2024 IJCV] HSCNet++: Hierarchical Scene Coordinate Classification and Regression for Visual Localization with Transformer [[paper]](https://arxiv.org/pdf/2305.03595)
 - [2023 CVPR] Accelerated Coordinate Encoding: Learning to Relocalize in Minutes using RGB and Poses [[paper]](https://arxiv.org/pdf/2305.14059) [[code]](https://nianticlabs.github.io/ace/)
