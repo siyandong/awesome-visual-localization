@@ -155,7 +155,7 @@ If you believe this list is missing something or has factually inaccurate info, 
 
 ## Camera Pose Optimization and Refinement
 
-- [2024 arXiv] GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting [[paper]](https://arxiv.org/pdf/2408.11085)
+- [2025 ICLR] GS-CPR: Efficient Camera Pose Refinement via 3D Gaussian Splatting [[paper]](https://openreview.net/forum?id=mP7uV59iJM) [[code]](https://github.com/XRIM-Lab/GS-CPR)
 - [2024 ECCV] Robust Incremental Structure-from-Motion with Hybrid Features [[paper]](https://arxiv.org/pdf/2409.19811)
 - [2024 ECCV] Global Structure-from-Motion Revisited [[paper]](https://arxiv.org/pdf/2407.20219) [[code]](https://github.com/colmap/glomap)
 - [2024 ECCV] Gravity-aligned Rotation Averaging with Circular Regression [[paper]](https://arxiv.org/pdf/2410.12763) [[code]](https://github.com/colmap/glomap) 
