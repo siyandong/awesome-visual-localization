@@ -89,6 +89,7 @@ If you believe this list is missing something or has factually inaccurate info, 
 - [2022 ECCV] MeshLoc: Mesh-Based Visual Localization [[paper]](https://arxiv.org/abs/2207.10762) [[code]](https://github.com/tsattler/meshloc_release)
 - [2022 CVPR] SceneSqueezer: Learning to Compress Scene for Camera Relocalization [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_SceneSqueezer_Learning_To_Compress_Scene_for_Camera_Relocalization_CVPR_2022_paper.html) 
 - [2021 IJCV] Reference Pose Generation for Long-term Visual Localization via Learned Features and View Synthesis [[paper]](https://arxiv.org/pdf/2005.05179.pdf)
+- [2021 ICCV] Pose Correction for Highly Accurate Visual Localization in Large-scale Indoor Spaces [[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Hyeon_Pose_Correction_for_Highly_Accurate_Visual_Localization_in_Large-Scale_Indoor_ICCV_2021_paper.html) [[code]](https://github.com/JanghunHyeon/PCLoc)
 - [2021 ICCV Workshop] MegLoc: A Robust and Accurate Visual Localization Pipeline [[paper]](https://arxiv.org/pdf/2111.13063v1.pdf)
 - [2021 ICCV Workshop] Pose Refinement with Joint Optimization of Visual Points and Lines [[paper]](https://arxiv.org/pdf/2110.03940.pdf)
 - [2021 ICRA & ICCV Workshop] Retrieval and Localization with Observation Constraints [[paper]](https://arxiv.org/pdf/2108.08516.pdf)
@@ -181,6 +182,7 @@ If you believe this list is missing something or has factually inaccurate info, 
 
 
 ### Indoor
+- [2023 IEEE Sens. J.] [CLoc](https://github.com/kimjh069/CLoc) [[paper]](https://ieeexplore.ieee.org/abstract/document/10068431)
 - [2022 CVPR] [Indoor-6](https://github.com/microsoft/SceneLandmarkLocalization) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Do_Learning_To_Detect_Scene_Landmarks_for_Camera_Localization_CVPR_2022_paper.pdf)
 - [2022 ECCV] [ACL](https://github.com/qhFang/AccurateACL) [[paper]](https://arxiv.org/abs/2012.04263)
 - [2021 ICCV] [SfM pGT for 7-Scenes and 12-Scenes](https://github.com/tsattler/visloc_pseudo_gt_limitations/) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Brachmann_On_the_Limits_of_Pseudo_Ground_Truth_in_Visual_Camera_ICCV_2021_paper.pdf)
@@ -189,7 +191,6 @@ If you believe this list is missing something or has factually inaccurate info, 
 - [2018 CVPR] [InLoc](http://www.ok.sc.e.titech.ac.jp/INLOC/) [[paper]](https://arxiv.org/pdf/1803.10368.pdf)
 - [2016 3DV] [4-Scenes(12-Scenes)](https://graphics.stanford.edu/projects/reloc/) [[paper]](https://arxiv.org/pdf/1603.05772v1.pdf)
 - [2013 CVPR] [7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) [[paper]](https://openaccess.thecvf.com/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)
-
 
 ### Outdoor
 - [2022 ECCV] [Map-free Visual Relocalization](https://arxiv.org/pdf/2210.05494.pdf). [[page]](https://research.nianticlabs.com/mapfree-reloc-benchmark)
