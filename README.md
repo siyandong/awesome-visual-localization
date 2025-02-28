@@ -44,7 +44,7 @@ If you believe this list is missing something or has factually inaccurate info, 
 
 ## Camera Pose Regression
 
-- [2024 arXiv] Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization [[paper]](https://arxiv.org/pdf/2412.08376) [[code]](https://github.com/ffrivera0/reloc3r)
+- [2025 CVPR] Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization [[paper]](https://arxiv.org/pdf/2412.08376) [[code]](https://github.com/ffrivera0/reloc3r)
 - [2024 ECCV] Learning Neural Volumetric Pose Features for Camera Localization [[paper]](https://arxiv.org/pdf/2403.12800)
 - [2024 CVPR] Map-Relative Pose Regression for Visual Re-Localization [[paper]](https://arxiv.org/pdf/2404.09884) [[code]](https://github.com/nianticlabs/marepo)
 - [2023 AAAI] RobustLoc: Robust Camera Pose Regression in Challenging Driving Environments [[paper]](https://arxiv.org/pdf/2211.11238.pdf) [[code]](https://github.com/sijieaaa/RobustLoc)
