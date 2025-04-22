@@ -1,4 +1,4 @@
-# Awesome Visual Localization
+# Awesome Visual Localization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of visual (re)localization related resources, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision). 
 The list focuses on the research of visual localization, i.e. estimates 6 DoF camera poses of query RGB/RGB-D frames in known scenes (with databases). 
