@@ -49,6 +49,7 @@ If you believe this list is missing something or has factually inaccurate info, 
 
 ## Camera Pose Regression
 
+- [2026 ECCV] DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers [[paper]](https://arxiv.org/abs/2609.12557) [[code]](https://github.com/ori-drs/drs-vpt)
 - [2025 NeurIPS] Alligat0R: Pre-Training Through Co-Visibility Segmentation for Relative Camera Pose Regression [[paper]](https://arxiv.org/abs/2503.07561) [[code]](https://github.com/thibautloiseau/alligat0r)
 - [2025 CVPR] Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization [[paper]](https://arxiv.org/pdf/2412.08376) [[code]](https://github.com/ffrivera0/reloc3r)
 - [2025 CVPR] HyperPose: Hypernetwork-Infused Camera Pose Localization and an Extended Cambridge Landmarks Dataset [[paper]](https://arxiv.org/abs/2303.02610) [[code]](https://github.com/ronferens/hyperpose)
